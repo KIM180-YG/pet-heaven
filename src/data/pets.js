@@ -1,0 +1,36 @@
+// Hardcoded pet data (no database needed for this assignment).
+// To add a pet, copy one object and change the values.
+const pets = [
+  { id: 1, name: 'Luna', species: 'Dog', breed: 'Australian Shepherd', gender: 'Female', age: 4,
+    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=600&q=70',
+    description: 'Friendly and energetic, Luna loves fetch and long walks.', vaccinated: true },
+  { id: 2, name: 'Milo', species: 'Cat', breed: 'Domestic Shorthair', gender: 'Male', age: 1,
+    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=70',
+    description: 'A curious kitten who will happily nap on your lap.', vaccinated: true },
+  { id: 3, name: 'Rocky', species: 'Dog', breed: 'French Bulldog', gender: 'Male', age: 3,
+    image: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=70',
+    description: 'A cuddly little clown who loves naps and short strolls.', vaccinated: true },
+  { id: 4, name: 'Bella', species: 'Cat', breed: 'Tabby', gender: 'Female', age: 5,
+    image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=600&q=70',
+    description: 'Gentle and calm, Bella enjoys quiet homes.', vaccinated: false },
+  { id: 5, name: 'Max', species: 'Dog', breed: 'Golden Retriever', gender: 'Male', age: 0.5,
+    image: 'https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&q=70',
+    description: 'A playful 6-month-old puppy who is great with children.', vaccinated: true },
+  { id: 6, name: 'Cleo', species: 'Cat', breed: 'Domestic Longhair', gender: 'Female', age: 0.5,
+    image: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=600&q=70',
+    description: 'A playful kitten who loves chasing feather toys.', vaccinated: true },
+  { id: 7, name: 'Coco', species: 'Dog', breed: 'Beagle', gender: 'Female', age: 1,
+    image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&q=70',
+    description: 'Small dog, big personality. Loves treats.', vaccinated: false },
+  { id: 8, name: 'Oliver', species: 'Cat', breed: 'American Shorthair', gender: 'Male', age: 7,
+    image: 'https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=600&q=70',
+    description: 'A relaxed senior cat looking for a cosy retirement home.', vaccinated: true },
+  { id: 9, name: 'Buddy', species: 'Dog', breed: 'Jack Russell Terrier', gender: 'Male', age: 6,
+    image: 'https://images.unsplash.com/photo-1561037404-61cd46aa615b?auto=format&fit=crop&w=600&q=70',
+    description: 'A clever, cheerful terrier who gets along with everyone.', vaccinated: true },
+  { id: 10, name: 'Nala', species: 'Cat', breed: 'Tabby', gender: 'Female', age: 0.25,
+    image: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?auto=format&fit=crop&w=600&q=70',
+    description: 'A tiny, curious kitten who loves exploring every corner.', vaccinated: true },
+];
+
+export default pets;
